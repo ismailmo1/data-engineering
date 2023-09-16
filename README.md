@@ -62,7 +62,7 @@ We're going to use the open-source tool [Airbyte](https://airbyte.com/) to creat
 ```bash
 git clone https://github.com/airbytehq/airbyte.git
 cd airbyte
-docker-compose up
+./run-ab-platform.sh 
 ```
 3. After a few minutes, visit [http://localhost:8000/](http://localhost:8000/) to view the launched Airbyte service.
 
